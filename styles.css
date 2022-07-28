@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+
+
+
 /* header area start  */
 
 header h2 {
@@ -51,7 +54,7 @@ header h2 {
 /* <!-- article's header area start  --> */
 #Discover{
 
-margin-top: 25vh;
+margin-top: 10rem;
 
     
 }
@@ -71,14 +74,32 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 color:#777777;
 
 
-font-size: 16px;
+font-size: 1rem;
 
 }
 /* <!-- article's header area end  --> */
 
 /* <!-- Articles  area start  --> */
 
+.cards-container{
 
+
+
+    
+}
+.cards-container h3{
+
+font-size: 1.3rem;
+
+}
+.cards-container p {
+
+font-size: 0.90rem;
+color: #777777;
+font-family: serif;
+
+
+}
 
 
 
@@ -120,7 +141,37 @@ font-size: 16px;
   }
 
   /* header area end  */
+
+
+
+/* <!-- article's header area start  --> */
+#Discover{
+
+    margin-top: 5rem;
+    
+        
+    }
+    #Discover h1{
+    
+    margin-bottom: 1rem;
+    
+    
+    }
+    #Discover p{
+    
+    
+    font-size: 12px;
+    
+    }
+    /* <!-- article's header area end  --> */
+
+
+
 }
+
+
+
+
 
 /* for small size devices */
 
@@ -138,11 +189,47 @@ font-size: 16px;
   #header-text button {
     font-size: 6px;
 
-    background-color: #289bde;
   }
 
   /* header area end  */
+
+
+
+
+/* <!-- article's header area start  --> */
+#Discover{
+
+    margin-top: 4rem;
+    
+        
+    }
+    #Discover h1{
+  
+    margin-bottom: 0.5rem;
+    
+    }
+    #Discover p{
+    
+    text-align: center;
+    
+    font-size: 9px;
+    
+    }
+    /* <!-- article's header area end  --> */
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 /* for extra small size devices */
 
@@ -164,6 +251,34 @@ font-size: 16px;
   }
 
   /* header area end  */
+
+
+
+/* <!-- article's header area start  --> */
+#Discover{
+
+    margin-top: 1rem;
+
+        
+    }
+    #Discover h1{
+   
+    margin-bottom: 0.25rem;
+    
+    
+    }
+    #Discover p{
+ 
+    font-size: 8px;
+    
+    }
+    /* <!-- article's header area end  --> */
+
+
+
+
+
+
 }
 
 
