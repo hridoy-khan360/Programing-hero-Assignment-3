@@ -1,293 +1,124 @@
 /*By defult css style reset zone */
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
+* {font-family: "Poppins", sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;}
 
 /* header area start  */
+#carousel-img { opacity: 0.4;}
+#carousel-box {background-color: black;
+  transition: transform 3s ease;}
 
-header h2 {
-  font-family: "Poppins", sans-serif;
-}
-
-#carousel-img {
-  opacity: 0.4;
-}
-
-#carousel-box {
-  background-color: black;
-  transition: transform 3s ease;
-}
-
-#header-text h1 {
-  font-size: 4rem;
-}
-
-#header-text p {
-  font-size: 18px;
-
-  font-family: monospace;
-}
-
-#header-text button {
-  font-size: 18px;
-
-  background-color: #289bde;
-}
-#header-text button:hover {
-  background-color: #046ba7;
-}
-
+#header-text h1 {font-size: 4rem;}
+#header-text p {font-size: 18px;
+  font-family: monospace;}
+#header-text button {font-size: 18px;
+  background-color: #289bde;}
+#header-text button:hover {background-color: #074363;}
 /* header area end  */
-
-
-/* MAIN AREA START */
 
 /* <!-- main section area-1 start --> */
 
-
 /* <!-- article's header area start  --> */
-#Discover{
+#Discover {margin-top: 10rem;}
+#Discover h1 {text-align: center;
+  margin-bottom: 1.5rem;}
+#Discover p {text-align: center;
 
-margin-top: 10rem;
-
-    
-}
-#Discover h1{
-
-text-align: center;
-margin-bottom: 1.5rem;
-
-
-}
-#Discover p{
-
-text-align: center;
-
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-color:#777777;
-
-
-font-size: 1rem;
-
-}
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #777777;
+   font-size: 1rem;}
 /* <!-- article's header area end  --> */
 
 /* <!-- Articles  area start  --> */
-
-.cards-container{
-
-
-
-    
-}
-.cards-container h3{
-
-font-size: 1.3rem;
-
-}
-.cards-container p {
-
-font-size: 0.90rem;
-color: #777777;
-font-family: serif;
-
-
-}
-
-
-
-
-
+.cards-container h3 {font-size: 1.3rem;}
+.cards-container p {font-size: 0.9rem; color: #777777; font-family: serif;}
 /* <!-- Articles  area end  --> */
 
 /* <!-- main section area-1 end --> */
 
-/* MAIN AREA END */
-
-
-
-
+/* <!-- main section area-2 start --> */
+#join {height: 40vh; width: 100%;background-color: #289bde;}
+#join h1 {color: white;}
+#join p {color: white;}
+#join button {background-color: #fff; color: #289bde;}
+/* <!-- main section area-2 end --> */
 
 /*--------------------------
  MEDIA QUERY AREA START
 ------------------------- */
 
-
-
 /* for medium size devices */
-
 @media screen and (min-width: 577px) and (max-width: 992px) {
   /* header area start  */
-
-  #header-text h1 {
-    font-size: 2rem;
-  }
-
-  #header-text p {
-    font-size: 10px;
-  }
-
-  #header-text button {
-    font-size: 10px;
-
-    background-color: #289bde;
-  }
-
+  #header-text h1 {font-size: 2rem;}
+  #header-text p {font-size: 10px;}
+  #header-text button {font-size: 10px; background-color: #289bde;}
   /* header area end  */
 
+  /* <!-- article's header area start  --> */
+  #Discover {margin-top: 5rem;}
+  #Discover h1 {margin-bottom: 1rem;}
+  #Discover p {font-size: 12px;}
+  /* <!-- article's header area end  --> */
 
-
-/* <!-- article's header area start  --> */
-#Discover{
-
-    margin-top: 5rem;
-    
-        
-    }
-    #Discover h1{
-    
-    margin-bottom: 1rem;
-    
-    
-    }
-    #Discover p{
-    
-    
-    font-size: 12px;
-    
-    }
-    /* <!-- article's header area end  --> */
-
-
-
+  /* <!-- main section area-2 start --> */
+  #join {display: flex; justify-content: center; align-items: center; flex-direction: column;}
+  #join h1 {margin-top: 30px; text-align: center;}
+  #join p {text-align: center; font-size: 1rem; font-family: serif;}
+  #join button { margin-top: -80px;}
+  /* <!-- main section area-2 end --> */
 }
-
-
-
 
 
 /* for small size devices */
-
 @media screen and (min-width: 361px) and (max-width: 576px) {
+
   /* header area start  */
-
-  #header-text h1 {
-    font-size: 1.5rem;
-  }
-
-  #header-text p {
-    font-size: 6px;
-  }
-
-  #header-text button {
-    font-size: 6px;
-
-  }
-
+  #header-text h1 {font-size: 1.5rem;}
+  #header-text p {font-size: 6px;}
+  #header-text button {font-size: 6px;}
   /* header area end  */
 
+  /* <!-- article's header area start  --> */
+  #Discover {margin-top: 4rem;}
+  #Discover h1 { margin-bottom: 0.5rem;}
+  #Discover p {text-align: center; font-size: 9px;}
+  /* <!-- article's header area end  --> */
 
 
-
-/* <!-- article's header area start  --> */
-#Discover{
-
-    margin-top: 4rem;
-    
-        
-    }
-    #Discover h1{
-  
-    margin-bottom: 0.5rem;
-    
-    }
-    #Discover p{
-    
-    text-align: center;
-    
-    font-size: 9px;
-    
-    }
-    /* <!-- article's header area end  --> */
-
-
-
-
-
+    /* <!-- main section area-2 start --> */
+    #join {display: flex; justify-content: center; align-items: center; flex-direction: column;}
+    #join h1 {margin-top: 30px; text-align: center;}
+    #join p { text-align: center; font-size: 0.8rem; font-family: serif; }
+    #join button { margin-top: -120px; }
+    /* <!-- main section area-2 end --> */
 
 
 }
-
-
-
-
-
-
 
 /* for extra small size devices */
-
 @media screen and (max-width: 360px) {
+
   /* header area start  */
-
-  #header-text h1 {
-    font-size: 1rem;
-  }
-
-  #header-text p {
-    font-size: 5px;
-  }
-
-  #header-text button {
-    font-size: 5px;
-
-    background-color: #289bde;
-  }
-
+  #header-text h1 {font-size: 1rem;}
+  #header-text p {font-size: 5px;}
+  #header-text button {font-size: 5px; background-color: #289bde; }
   /* header area end  */
 
+  /* <!-- article's header area start  --> */
+  #Discover { margin-top: 1rem;}
+  #Discover h1 {margin-bottom: 0.25rem;}
+  #Discover p {font-size: 8px;}
+  /* <!-- article's header area end  --> */
 
-
-/* <!-- article's header area start  --> */
-#Discover{
-
-    margin-top: 1rem;
-
-        
-    }
-    #Discover h1{
-   
-    margin-bottom: 0.25rem;
-    
-    
-    }
-    #Discover p{
- 
-    font-size: 8px;
-    
-    }
-    /* <!-- article's header area end  --> */
-
-
-
-
-
-
+  /* <!-- main section area-2 start --> */
+  #join {display: flex; justify-content: center; align-items: center; flex-direction: column;}
+  #join h1 { margin-top: 30px; text-align: center; }
+  #join p {text-align: center; font-size: 0.8rem; font-family: serif; margin-top: 15px; }
+  #join button { margin-top: -70px; font-size: 10px; padding: 10px;}
+  /* <!-- main section area-2 end --> */
 }
-
-
-
-
-
-
-
-
 
 /*--------------------------
  MEDIA QUERY AREA END
