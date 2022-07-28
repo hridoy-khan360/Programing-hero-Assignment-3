@@ -1,0 +1,109 @@
+/*By defult css style reset zone */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header area start  */
+
+header h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+#carousel-img {
+  opacity: 0.4;
+}
+
+#carousel-box {
+  background-color: black;
+  transition: transform 3s ease;
+}
+
+#header-text h1 {
+  font-size: 4rem;
+}
+
+#header-text p {
+  font-size: 18px;
+
+  font-family: monospace;
+}
+
+#header-text button {
+  font-size: 18px;
+
+  background-color: #289bde;
+}
+#header-text button:hover {
+  background-color: #046ba7;
+}
+
+/* header area end  */
+
+/* for medium size devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* header area start  */
+
+  #header-text h1 {
+    font-size: 2rem;
+  }
+
+  #header-text p {
+    font-size: 10px;
+  }
+
+  #header-text button {
+    font-size: 10px;
+
+    background-color: #289bde;
+  }
+
+  /* header area end  */
+}
+
+/* for small size devices */
+
+@media screen and (min-width: 361px) and (max-width: 576px) {
+  /* header area start  */
+
+  #header-text h1 {
+    font-size: 1.5rem;
+  }
+
+  #header-text p {
+    font-size: 6px;
+  }
+
+  #header-text button {
+    font-size: 6px;
+
+    background-color: #289bde;
+  }
+
+  /* header area end  */
+}
+
+/* for extra small size devices */
+
+@media screen and (max-width: 360px) {
+  /* header area start  */
+
+  #header-text h1 {
+    font-size: 1rem;
+  }
+
+  #header-text p {
+    font-size: 5px;
+  }
+
+  #header-text button {
+    font-size: 5px;
+
+    background-color: #289bde;
+  }
+
+  /* header area end  */
+}
