@@ -20,7 +20,7 @@
 /* <!-- main section area-1 start --> */
 
 /* <!-- article's header area start  --> */
-#Discover {margin-top: 10rem;}
+#Discover {margin-top: 5rem;}
 #Discover h1 {text-align: center;
   margin-bottom: 1.5rem;}
 #Discover p {text-align: center;
@@ -46,8 +46,9 @@
 /* <!-- main section area-2 end --> */
 
 /* <!-- main section area-3 start --> */
+.w-long{ width: 75%;}
+/* <!-- main section area-3 end --> */
 
-/* <!-- main section area-3 end --> *
 
 /*--------------------------
  MEDIA QUERY AREA START
@@ -73,6 +74,11 @@
   #join p {text-align: center; font-size: 1rem; font-family: serif;}
   #join button { margin-top: -80px;}
   /* <!-- main section area-2 end --> */
+  /* <!-- main section area-3 start --> */
+.w-long{ width: 100%;}
+.Trusted{ display: none;}
+/* <!-- main section area-3 end --> */
+footer{ margin-top: 3rem;}
 }
 
 
@@ -99,7 +105,11 @@
     #join button { margin-top: -120px; }
     /* <!-- main section area-2 end --> */
 
-
+/* <!-- main section area-3 start --> */
+.w-long{ width: 100%;}
+.Trusted{ display: none;}
+/* <!-- main section area-3 end --> */
+footer{ margin-top: 3rem;}
 }
 
 /* for extra small size devices */
@@ -123,6 +133,12 @@
   #join p {text-align: center; font-size: 0.8rem; font-family: serif; margin-top: 15px; }
   #join button { margin-top: -70px; font-size: 10px; padding: 10px;}
   /* <!-- main section area-2 end --> */
+
+  /* <!-- main section area-3 start --> */
+.w-long{ width: 100%;}
+.Trusted{ display: none;}
+/* <!-- main section area-3 end --> */
+footer{ margin-top: 3rem;}
 }
 
 /*--------------------------

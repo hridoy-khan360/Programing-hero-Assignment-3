@@ -12,13 +12,16 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     />
 
-    <!-- front awesome link  -->
+    <!--google front link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- font-awesome-kit link -->
+    <script src="https://kit.fontawesome.com/dd31718b86.js" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css" />
@@ -407,161 +410,313 @@
           </div>
 
           <div>
+            <!-- Button trigger modal -->
+            <button
+              id="Register"
+              type="button"
+              class="btn btn-primary px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register Now
+            </button>
 
-<!-- Button trigger modal -->
-<button id="Register" type="button" class="btn btn-primary px-4 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Register Now
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title fs-3" id="exampleModalLabel">Register Now Before its too late</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body fs-6">
-           
-            December 2022 is finally over, and the time has come to turn 2023 into your year of ambition, determination and success. It can be scary stepping into the stressors and unknowns of the new year, but we’re here to help guide you on a journey that will bring you to a new level of confidence.
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Register</button>
-        </div>
-      </div>
-    </div>
-  </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-3" id="exampleModalLabel">
+                      Register Now Before its too late
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body fs-6">
+                    December 2022 is finally over, and the time has come to turn
+                    2023 into your year of ambition, determination and success.
+                    It can be scary stepping into the stressors and unknowns of
+                    the new year, but we’re here to help guide you on a journey
+                    that will bring you to a new level of confidence.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Register
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-
         </div>
       </section>
       <!-- main section area-2 end -->
 
-
       <!-- main section area-3 start -->
-<section class=" container">
+      <section class="container">
+        <div id="Discover" class="d-flex align-items-center flex-column mb-3">
+          <div>
+            <h1>Frequently Asked Questions</h1>
+          </div>
 
-    <div id="Discover" class="d-flex align-items-center flex-column mb-3">
-        <div>
-          <h1>
-            Frequently Asked Questions
-          </h1>
+          <div>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable <br />
+              content of a page when looking at its layout.
+            </p>
+          </div>
         </div>
 
-        <div>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable <br>
-            content of a page when looking at its layout.
-          </p>
-        </div>
+        <!-- Accordion area start -->
+ 
+<article class=" d-flex flex-column 
+align-items-center ">
+
+<div class="accordion w-long " id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseOne"
+        aria-expanded="true"
+        aria-controls="collapseOne"
+      >
+        No : 1 What is the difference between flexbox and css grid?
+      </button>
+    </h2>
+    <div
+      id="collapseOne"
+      class="accordion-collapse collapse show"
+      aria-labelledby="headingOne"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong class="fs-6"
+          >The difference between flexbox and css grid :
+        </strong>
+        <p class="fs-6 fsa">
+          CSS Grid and Flexbox are layout models that share similarities
+          and can be used together. The key difference is that CSS Grid
+          can be used to create <code>two-dimensional</code> layouts,
+          while Flexbox can only be used to create
+          <code>one-dimensional </code> layouts.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseTwo"
+        aria-expanded="false"
+        aria-controls="collapseTwo"
+      >
+        No : 2 What is the difference between bootstrap and tailwind?
+      </button>
+    </h2>
+    <div
+      id="collapseTwo"
+      class="accordion-collapse collapse"
+      aria-labelledby="headingTwo"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>The difference between bootstrap and tailwind :</strong>
+        <p class="fs-6 fsa">
+          Bootstrap comes with a set of pre-styled responsive,
+          mobile-first components that possess a definite UI kit.
+          Tailwind CSS uses a set of utility classes to create a neat UI
+          with more <code>flexibility and uniqueness </code> . Sites
+          created using Bootstrap follow the generic pattern that makes
+          them look identical.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseThree"
+        aria-expanded="false"
+        aria-controls="collapseThree"
+      >
+        No : 3 What is a box model in CSS?
+      </button>
+    </h2>
+    <div
+      id="collapseThree"
+      class="accordion-collapse collapse"
+      aria-labelledby="headingThree"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>This CSS box model :</strong>
+        <p class="fs-6 fsa">
+          The CSS box model is a container that contains multiple
+          properties including borders, margin, padding, and the content
+          itself. It is used to create the design and layout of web
+          pages. It can be used as a toolkit for customizing the layout
+          of different elements. The web browser renders every element
+          as a rectangular box according to the CSS box model. Box-Model
+          has multiple properties in CSS. Some of them are given below:
+          <br />
+          <img class="h-25 w-25" src="images/box_model.png" alt="" />
+          <br />
+          ontent: This property is used to displays the text, images,
+          etc, that can be sized using the width & height property.
+          padding: This property is used to create space around the
+          element, inside any defined border. border: This property is
+          used to cover the content & any padding, & also allows to set
+          the style, color, and width of the border. margin: This
+          property is used to create space around the element ie.,
+          around the border area.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingfour">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsefour"
+        aria-expanded="false"
+        aria-controls="collapsefour"
+      >
+        No 4 : What is an HTML Semantic Tags?
+      </button>
+    </h2>
+    <div
+      id="collapsefour"
+      class="accordion-collapse collapse"
+      aria-labelledby="headingfour"
+      data-bs-parent="#accordionExample"
+    >
+      <div class="accordion-body">
+        <strong>HTML Semantics Tags</strong>
+        <p class="p-6 fsa">
+          The HTML semantics refers to the tags that provide meaning to
+          an HTML page rather than just presentation. It makes HTML more
+          comprehensible by better defining the different sections and
+          layout of web pages. This article will focus on ‘What is
+          Semantics in HTML’. The core characteristic of a semantic
+          element is that it clearly communicated its meaning to both
+          the developer and the browser. These elements clearly define
+          its content.
+        </p>
+        <p>
+          The following HTML tags can be used to break your page into
+          identified parts:
+        </p>
+        <p class="ps-6 fsa">
+          header>: t defines a header for a web page.
+          <br />
+          nav>: It defines a container for navigation links. <br />
+          section>: This defines a section in a web page. <br />
+          article>: This element contains the main part, containing
+          information about the web page. <br />
+          aside>: The aside> content is often placed as a sidebar in a
+          document. <br />
+          footer>: It defines a footer for a document or a section.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</article>
+<!-- Accordion area end  -->
+
+<!-- Trusted companies area start -->
+
+<div class="Trusted">
+
+  <div id="Discover " class="text-center d-flex align-items-center flex-column mt-5 mb-3">
+    <h1>Trusted by over 800+ companies</h1>
+  </div>
+  
+      <div class="d-flex align-items-center justify-content-between mb-5">
+        <div><img src="images/company/company-1.png" class=" h-75 w-75" alt=""></div>
+        <div><img src="images/company/company-2.png" class=" h-75 w-75" alt=""></div>
+        <div><img src="images/company/company-3.png" class=" h-75 w-75" alt=""></div>
+        <div><img src="images/company/company-4.png" class=" h-75 w-75" alt=""></div>
+        <div><img src="images/company/company-5.png" class=" h-75 w-75" alt=""></div>
+        <div><img src="images/company/company-6.png" class=" h-75 w-75" alt=""></div>  
       </div>
 
+</div>
 
 
-      <!-- Accordion area start -->
+ <!-- Trusted companies area start -->
 
-      <div class="accordion mb-5" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-             No : 1 What is the difference between flexbox and css grid?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong class="fs-6">The difference between flexbox and css grid : </strong> <P class="fs-6 fsa" > CSS Grid and Flexbox are layout models that share similarities and can be used together. The key difference is that CSS Grid can be used to create <code>two-dimensional</code>  layouts, while Flexbox can only be used to create <code>one-dimensional </code>  layouts.</P> 
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                No : 2 What is the difference between bootstrap and tailwind?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>The difference between bootstrap and tailwind :</strong> <P class="fs-6 fsa">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more <code>flexibility and uniqueness </code> . Sites created using Bootstrap follow the generic pattern that makes them look identical.</P>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                No : 3 What is a box model in CSS?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This CSS box model :</strong> <p class=" fs-6 fsa">The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Some of them are given below: <br>
-                <img class=" h-25 w-25" src="images/box_model.png" alt=""> <br>
-                ontent: This property is used to displays the text, images, etc, that can be sized using the width & height property.
-                padding: This property is used to create space around the element, inside any defined border.
-                border: This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.
-                margin: This property is used to create space around the element ie., around the border area. </p> 
-          </div>
-        </div>
-      </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingfour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                No 4 : What is an HTML Semantic Tags?
-            </button>
-          </h2>
-          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>HTML Semantics Tags</strong><p class="p-6 fsa">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages. This article will focus on ‘What is Semantics in HTML’. The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content.</p>
-<p>The following HTML tags can be used to break your page into identified parts: </p> <p class=" ps-6 fsa">
-    header>: t defines a header for a web page.
-    <br> nav>: It defines a container for navigation links.
-    <br> section>: This defines a section in a web page.
-    <br> article>: This element contains the main part, containing information about the web page.
-    <br> aside>: The aside> content is often placed as a sidebar in a document.
-    <br> footer>: It defines a footer for a document or a section. </p> 
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Accordion area end  -->
-
-
-</section>
-
-
-
-
-
-
+      </section>
 <!-- main section area-3 end -->
-
-
-
-
-
-
-
-
-
-
-
 
     </main>
 
-
-
-
-
-
     <!-- MAIN AREA END -->
+
 
     <!-- footer area start -->
 
-    <footer></footer>
+    <footer class=" bg-black w-100 d-flex flex-column justify-content-center align-items-center" style="height:20rem; ">  
+  
+      
+<div class=" text-white">
+
+<h2 class=" text-center"> HK-Tech</h2>
+<h6 class="text-center text-success fs-6 fsa">Office 360,Mirsarai,Chattogram, <br>
+  Repabolic of Bangladesh<br>
+  Privacy Ploicy | Terms of use</h6>
+
+  <i class="fs-3 m-2 fa-brands fa-twitter">
+     <a href="https://twitter.com/mdhridoyk05"></a></i>
+
+  <i class="fs-3 m-2 fa-brands fa-github">
+     <a href="https://github.com/hridoy-khan360"></a></i>
+
+  <i class="fs-3 m-2 fa-brands fa-facebook">
+     <a href="https://www.facebook.com/MHK360"></a></i>
+
+  <i class="fs-3 m-2 fa-brands fa-linkedin">
+     <a href="https://www.linkedin.com/in/hridoy-khan360"></a></i>
+
+  <i class="fs-3 m-2 fa-brands fa-square-instagram">
+     <a href="https://www.instagram.com/hridoy_khan360/"></a></i>
+
+</div>
+
+
+      
+
+    </footer>
 
     <!-- footer area end -->
 
